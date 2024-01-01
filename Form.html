@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration-Form</title>
+</head>
+<body>
+    <form action="">
+        <h3>Pet Adoption Event Application Form</h3>
+        <label for="Name"><b>Applicant's Name</b></label>
+        <br>
+        <input type="text" name="Name" placeholder="First Name" required>
+        <input type="text" name="Name" placeholder="Last Name" required>
+        <br>
+        <br>
+        <label for="Email"><b>Email Address</b></label>
+        <br>
+        <input type="email" name="Email"  size="46" required>
+        <br>
+        <br>
+        <label for="Address"><b>Home Address</b></label>
+        <br>
+        <input type="text" name="Address" placeholder="Street Address" size="46" required>
+        <br>
+        <br>
+        <input type="text" name="Address" placeholder="Street Address Line 2" size="46" required>
+        <br>
+        <br>
+        <input type="text" name="Address" placeholder="City" required>
+        <input type="text" name="Address" placeholder="Region" required>
+        <br>
+        <br>
+        <input type="number" name="Address" placeholder="Postal / Zip Code" size="23" required>
+        <select name="Country" style="width: 170px;">
+            <option value="Pakistan" selected >Pakistan</option>
+            <option value="India">India</option>
+            <option value="Sri Lanka">Sri Lanka</option>
+            <option value="Bangladesh">Bangladesh</option>
+            <option value="Afganistan">Afganistan</option>
+            <option value="UAE">UAE</option>
+            <option value="China">China</option>
+        </select>
+        <br>
+        <br>
+        <label for="Pet-type"><b>Type of Pet Interested In</b></label>
+        <br>
+        <input type="radio" name="Pet-type" value="Dog">Dog
+        <input type="radio" name="Pet-type" value="Cat">Cat
+        <input type="radio" name="Pet-type" value="Rabbit">Rabbit
+        <input type="radio" name="Pet-type" value="Parrot">Parrot
+        <input type="radio" name="Pet-type" value="Others">Others:
+        <br>
+        <br>
+       <label for="detail"><b>Current Pet Ownership Details</b></label>
+       <br>
+       <textarea name="detail" id="" cols="44" rows="10"></textarea>
+       <br><br>
+       <input type="submit">
+       <input type="reset">
+    </form>
+    
+</body>
+</html>

@@ -10,20 +10,20 @@
       <h3>Pet Adoption Event Application Form</h3>
       <label for="Name"><b>Applicant's Name</b></label>
       <br />
-      <input type="text" name="Name" placeholder="First Name" required />
-      <input type="text" name="Name" placeholder="Last Name" required />
+      <input type="text" id="Name" placeholder="First Name" required />
+      <input type="text" id="Name" placeholder="Last Name" required />
       <br />
       <br />
       <label for="Email"><b>Email Address</b></label>
       <br />
-      <input type="email" name="Email" size="46" required />
+      <input type="email" size="46" id="Email" required />
       <br />
       <br />
       <label for="Address"><b>Home Address</b></label>
       <br />
       <input
         type="text"
-        name="Address"
+        id="Address"
         placeholder="Street Address"
         size="46"
         required
@@ -32,20 +32,20 @@
       <br />
       <input
         type="text"
-        name="Address"
+        id="Address"
         placeholder="Street Address Line 2"
         size="46"
         required
       />
       <br />
       <br />
-      <input type="text" name="Address" placeholder="City" required />
-      <input type="text" name="Address" placeholder="Region" required />
+      <input type="text" name="Address" id="Address" placeholder="City" required />
+      <input type="text" name="Address" id="Address" placeholder="Region" required />
       <br />
       <br />
       <input
         type="number"
-        name="Address"
+        id="Address"
         placeholder="Postal / Zip Code"
         size="23"
         required
@@ -63,18 +63,17 @@
       <br />
       <label for="Pet-type"><b>Type of Pet Interested In</b></label>
       <br />
-      <input type="radio" name="Pet-type" value="Dog" />Dog
-      <input type="radio" name="Pet-type" value="Cat" />Cat
-      <input type="radio" name="Pet-type" value="Rabbit" />Rabbit
-      <input type="radio" name="Pet-type" value="Parrot" />Parrot
-      <input type="radio" name="Pet-type" value="Others" />Others:
+      <input type="radio" name="pet" id="Pet-type" value="Dog" />Dog
+      <input type="radio" name="pet" id="Pet-type" value="Cat" />Cat
+      <input type="radio" name="pet" id="Pet-type" value="Rabbit" />Rabbit
+      <input type="radio" name="pet" id="Pet-type" value="Parrot" />Parrot
+      <input type="radio" name="pet" id="Pet-type" value="Others" />Others:
       <br />
       <br />
       <label for="detail"><b>Current Pet Ownership Details</b></label>
       <br />
       <textarea
-        name="detail"
-        id=""
+        id="detail"
         cols="44"
         rows="10"
         placeholder="Enter Detail:"
